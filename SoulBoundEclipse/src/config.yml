@@ -1,0 +1,6 @@
+#The max amount of items you can soul bound in a stack
+SoulBound_MaxSize: 64
+
+
+Permissions:
+  soulbound.use #Allows the use of the enchant command /soulbound

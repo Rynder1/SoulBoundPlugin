@@ -1,0 +1,28 @@
+name: SoulBound
+author: rynder
+main: me.rynder.soulbound.Main
+description: Plugin that adds soulbound enchant to keep item on death.
+version: 1.1.1
+api-version: 1.15
+
+commands:
+  soulbound:
+    description: SoulBound command.
+    permission: soulbound.use
+    permission-message: You do not have permission to use that command!
+    
+  soulbound on:
+    description: Guarentees soulbound is on.
+    permission: soulbound.use
+    permission-message: You do not have permission to use that command!
+    
+  soulbound off:
+    description: Guarentees soulbound is off.
+    permission: soulbound.use
+    permission-message: You do not have permission to use that command!
+
+permissions:
+  soulbound.use:
+    description: Allows the adding and removing of soulbound.
+    default: op
+  
