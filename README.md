@@ -1,0 +1,2 @@
+# SoulBoundPlugin
+Minecraft Soulbound Plugin
